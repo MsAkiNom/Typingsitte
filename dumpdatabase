@@ -1,0 +1,24 @@
+The databases:
+create database typingsitte;
+
+create table users(
+   userid INT NOT NULL AUTO_INCREMENT,
+   username  varchar(20) NOT NULL,
+    password varchar(20),
+   PRIMARY KEY (userid )
+
+);
+
+create table rankings(
+   rankingid INT NOT NULL AUTO_INCREMENT,
+   userid int not null,
+   wpm int,
+    correct int,
+    incorrect int,
+    keystrokes int,
+    accuracy int,
+    timestamp timestamp,
+   PRIMARY KEY ( rankingid ),
+     CONSTRAINT FOREIGN KEY (userid) REFERENCES users(userid)
+
+);
