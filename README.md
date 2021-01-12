@@ -1,5 +1,5 @@
 # Typingsitte
-A simple finger-typing site
+A simple touch-typing site
 
 Output Images:
 
