@@ -1,7 +1,7 @@
 # Typingsitte
 A simple touch-typing site
 
-Output Images:
+Output in image-format:
 
 ![](outputImages/index.png)
 
